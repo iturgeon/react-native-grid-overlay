@@ -11,11 +11,21 @@ npm install react-native-grid-overlay
 ## Usage
 
 ```js
-import { multiply } from 'react-native-grid-overlay';
+import { GridOverlay } from 'react-native-grid-overlay';
 
-// ...
-
-const result = await multiply(3, 7);
+export default function App() {
+  return (
+    <>
+      <GridOverlay
+        color={'black'}
+        opacity={0.5}
+        stepSize={5}
+        height={height}
+        width={width}
+      />
+    </>
+  );
+}
 ```
 
 ## Contributing
