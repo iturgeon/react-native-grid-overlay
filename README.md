@@ -2,6 +2,12 @@
 
 A quick tool to draw a grid overlay to help with pixel perfect layouts
 
+![screen shot showing graph overlay](./example/screenshot.png "Screenshot")
+
+## Example
+
+Try the example using `yarn example ios`
+
 ## Installation
 
 ```sh
